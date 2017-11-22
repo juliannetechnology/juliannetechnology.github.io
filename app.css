@@ -20,6 +20,7 @@ header {
     font: normal normal bold 20px arial;
     color: #ffffff;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 .button:hover,
 .button:focus {
