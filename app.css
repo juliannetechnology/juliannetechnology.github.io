@@ -5,6 +5,52 @@ header {
     padding: 20px 0px 0px 0px;
     color: white;
 }
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #2229a9;
+    border-radius: 8px;
+    background: #404dff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#404dff), to(#2229a9));
+    background: -moz-linear-gradient(top, #404dff, #2229a9);
+    background: linear-gradient(to bottom, #404dff, #2229a9);
+    text-shadow: #141864 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #2830c7;
+    background: #4d5cff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4d5cff), to(#2931cb));
+    background: -moz-linear-gradient(top, #4d5cff, #2931cb);
+    background: linear-gradient(to bottom, #4d5cff, #2931cb);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #2229a9;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2229a9), to(#2229a9));
+    background: -moz-linear-gradient(top, #2229a9, #2229a9);
+    background: linear-gradient(to bottom, #2229a9, #2229a9);
+}
+.button:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACtUlEQVRIieWUy2vddRDFP+f2cpOfhHBnfmkjUkwppYiUQl2oUIoobcBdxcdGBSXSB6K46n/gooKLUkrEjQ9w4UKz0IWVKhqLQRdaUayLqpClJPMN2eQa6m9cXFvT1ia9YlbOdh5nznDOwP8izP1ec58x922D9rbWS3brGnN/Cvhc0mFg138GYGZtZZ5EegtYSCA3WOiWAcx9FGkGOAG8Juk4gAad/k8AVte7gTngIHC0Bc8DqwIyc2AG7es2nyTzHaABHi4RnwF4XZOApDPmPg/MA98Ds2T+WEppbgawBWB8fJzO0NCLwBvAr8ChEvHtlaKhqloRTAhWgW3AfkmPCY4hPVFVVfu2qvpuZWXl8vUAMvdh4LSk5zLzfcGzEbG8Hu2RkRHanc5OwSTwNNL9ZM4DU4JPI+Kas3zi7n+Y+8vuPvCNu2NjmPtBc79o7r+b+5G1+RawitQCOpk56HyWFhYoEeeA+4BzwLS5H/6bgVnb3E9bn8UH5t4dGOXKLPdhc//C3Bfd/Q74S9rdrVtR0xwj8xTwE/Boibi0pnEHfQG0gGXgN8HPCRcEX0fEwpranfQV9naJOH6Nd8z9IeBd+jJ9vETMAnhdTyacJfMC0APGgDsldTKzB8wCZwQfRkRj7q8CRzJz4gZzmvsupBkydwMvkPm6Wq1J4GzTNA8slTILYHXdJnMvfUM+CewFzgNTQCO4mDB1g2pKxCUyDwAfA9NIp4A2mUi6aqiyuHi5RHxTIl4hcx/wCLAdmEO6PeEH4MGbvhdzbwMnJb2UfefuyKY5sFTK+XV6xoD3gD30AUY3/F/m/gwwLWk4M/eXiC/Xq++ajUr6StJdmRkbGqtEvAkcysyPgF82ql8qZRk4SmZzSwz+TZhZC2kOuGfLZgD0er2sqmoC2LMpDADMfTtw92bNvxp/AqDa8bXmbA9iAAAAAElFTkSuQmCC") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
 body {
     background: rgb(197, 149, 224);
     font-family: 'Indie Flower', cursive;
