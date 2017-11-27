@@ -74,7 +74,7 @@ li {
 .headerul {
     background: rgba(40, 48, 199, 0.40);
 }
-#title {
+#title, #main {
     background-color: rgba(42, 49, 119, 0.6);
     font-family: 'Great Vibes', cursive;
     font-size: 63px;
