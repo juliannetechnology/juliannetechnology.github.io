@@ -100,3 +100,17 @@ h4, p {
 p {
     text-align: left;
 }
+@media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      header {
+	line-height: 50px;      
+      }
+    }
+    
